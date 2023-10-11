@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 
 
 
-export default function Home({ data }: { data: { time: string } }) {
+export default function Home() {
   const [time, setTime] = useState<Date | null>(null);
   useEffect(() => {
       fetch('/api/time')
