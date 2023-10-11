@@ -1,0 +1,18 @@
+// This layout will be applied to every page in the (home) group.
+import Footer from '@/components/Footer'
+import Navbar from '@/components/Navbar'
+import React from 'react'
+
+type Props = {}
+
+const layout = ({children}: {children: React.ReactNode}) => {
+  return (
+    <>
+    <Navbar/>
+    {children}
+    <Footer/>
+    </>
+  )
+}
+
+export default layout
