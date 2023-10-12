@@ -54,7 +54,7 @@ module.exports = {
         orange: "#FF964B",
       },
       backgroundImage: {
-        banner: "url('/ai-banner.png')",
+        banner: "url('/background1.jpg')",
       },
       keyframes: {
         "accordion-down": {
