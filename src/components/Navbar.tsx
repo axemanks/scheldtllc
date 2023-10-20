@@ -19,6 +19,7 @@ const Navbar = (props: Props) => {
           height={55}
           />
         </Link>
+        <p className='text-blue-500 text-gradient_blue-purple font-bold text-2xl'>Scheldt LLC</p>
         {/* Hamburger Menu on small devices*/}
         <Image
         src="/hamburger-menu.svg"
