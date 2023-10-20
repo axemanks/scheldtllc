@@ -19,7 +19,7 @@ const HomePage = () => {
         </div>
         {/* Banner */}
         <div className='flex-center relative min-h-[274px] w-full flex-col border rounded-xl bg-banner bg-cover bg-center text-center shadow-xl backdrop-blur transition-all '>
-          <h1 className='sm:heading1 heading2 mb-6 text-center text-black'>Scheldt LLC</h1>
+          <h1 className='sm:heading1 heading2 mb-6 text-center text-gradient_blue-orange'>Scheldt LLC</h1>
           <p className='heading2 mb-1 text-center text-gradient_blue-orange'>Custom AI Software Solutions</p>
         </div>
 
