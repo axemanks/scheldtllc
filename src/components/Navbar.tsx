@@ -3,6 +3,8 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import { DarkModeToggle } from './DarkModeToggle'
+import { Button } from './ui/button'
 
 type Props = {}
 
@@ -34,10 +36,18 @@ const Navbar = (props: Props) => {
             <Link href='/'>
               Home
             </Link>
-
+          </li>
+          <li>
+            <Button variant="default">Home</Button>
           </li>
 
+
         </ul>
+
+        {/* Darkmode Toggle */}
+        <div>
+          <DarkModeToggle />
+        </div>
 
       </div>
     </nav>

@@ -23,6 +23,8 @@ const HomePage = () => {
           <p className='heading2 mb-1 text-center text-gradient_blue-orange'>Custom AI Software Solutions</p>
         </div>
 
+        <div className='text-primary text-center'>Hello Keith</div>
+
       </section>
       
     </main>

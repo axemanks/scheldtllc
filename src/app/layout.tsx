@@ -1,4 +1,5 @@
 // This main layout will be for SEO
+import { ThemeProvider } from '@/components/theme-provider';
 import './globals.css';
 import type { Metadata } from 'next';
 
@@ -13,10 +14,18 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang='en'
-    className=''
+    <html
+      lang='en'
+      className=''
     >
-      <body className='min-h-screen font-poppins grainy'>{children}</body>
+      <ThemeProvider
+      attribute='class'
+      defaultTheme='system'
+      enableSystem={true}
+      disableTransitionOnChange={true}
+      >
+        <body className='min-h-screen font-poppins '>{children}</body>
+      </ThemeProvider>
     </html>
   );
 }
