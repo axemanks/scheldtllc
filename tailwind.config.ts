@@ -28,6 +28,8 @@ module.exports = {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
         inter: ["Inter", "sans-serif"],
+        palanquin: ['Palanquin', 'sans-serif'],
+        montserrat: ['Montserrat', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",
