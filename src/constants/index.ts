@@ -10,6 +10,14 @@ export const navLinks = [
     { href: "#contact-us", label: "Contact Us" },
 ];
 
+export const heroSection = 
+    {
+    title: "Scheldt LLC",
+    subtitle: "Let's build your next big AI project together!",
+    paragraphOne: "Have a great idea for an AI project? Let's chat and make it a reality! Idea to MVP in 90 days.",
+    paragraphTwo: "We create tailor-made applications and systems that are designed and developed to meet specific business needs using artificial intelligence technologies. Our solutions are crafted to address unique challenges and opportunities within an organization, incorporating machine learning, deep learning, and other AI techniques."
+    }
+
 // export const shoes = [
 //     {
 //         thumbnail: thumbnailShoe1,
