@@ -20,11 +20,11 @@ export default function RootLayout({
     >
       <ThemeProvider
         attribute='class'
-        defaultTheme='system'
+        defaultTheme='dark'
         enableSystem={true}
-        disableTransitionOnChange={true}
+        disableTransitionOnChange={false}
       >
-        <body className='min-h-screen font-poppins grainy dark:bg-slate-800'>
+        <body className='min-h-screen font-poppins  dark:bg-slate-800'>
           {children}
         </body>
       </ThemeProvider>

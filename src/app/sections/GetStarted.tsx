@@ -9,8 +9,8 @@ type Props = {}
 const GetStarted = (props: Props) => {
   return (
     <section id='getStarted'>
-        <div className='container w-full h-fit flex flex-col text-center p-10 gap-10 bg-gray-200'>
-        <h1 className='heading2'>
+        <div className='container w-full h-fit flex flex-col text-center p-10 gap-10  rounded-xl circuit'>
+        <h1 className='heading2 text-primary'>
             Get Started Today!
         </h1>
         <p className='base-regular'>Get started today and unleash the incredible potential of AI</p>

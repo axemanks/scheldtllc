@@ -88,7 +88,8 @@ module.exports = {
         orange: "#FF964B",
       },
       backgroundImage: {
-        banner: "url('/background1.jpg')",
+        banner: "url('/images/background1.jpg')",
+        about: "url('/images/thumbnail-background.svg')",
       },
       borderRadius: {
         lg: "var(--radius)",
